@@ -1,0 +1,30 @@
+STRUCTURE OF A WEB BROWSER:
+
+USER INTERFACE-->BROWSER ENGINE--->RENDERING ENGINE--->1. NETWORKING
+                                                       2. JS ENGINE
+                                                       3. UI BACKEND
+BROWSER ENGINE--> DATA STORAGE
+
+USER INTERFACE- The user interface is which the users interact with the software and hardware of the computer.
+
+BROWSER ENGINE- the aim of browser engine is to transform HTML documents and other resources of an web page in to a visual representation.the browser engine directs action 
+between user interface and rendering engine.
+
+RENDERING ENGINE- The rendering engine is responsible for displaying the visual representation of the web page.assume rendering engine as a painter its responsibility 
+is to construct a page by applying the right structures and colors.The engine takes in HTML and CSS documents then displays its interpretation of both.
+
+explanation of network: to receive content the browser needs to communicate with network asking for required images and documents that make up a page.
+
+JS ENGINE- previously the js was mostly an interpreted language! every single line is interpreted and executed one by one. after v8 engine by the compiler it created as highly optimized machine code.
+all browsers has js engines in different names.
+chrome: v8 engine
+firefox: spidermonkey
+safari: javascriptCore
+chakra(IE):edge
+the chrome v8 engine converts javascript code in to optimised machine code. it employs a technique called jit compliation.
+used in node runtime as well as chrome v8.
+
+
+
+DATA STORAGE- data storage such as cookies,local storage, cache storage this helps us retain state even when we refresh page. it is the collection of temporary data stored in a browser and we can clear the data whenever its not required.
+

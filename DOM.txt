@@ -1,0 +1,7 @@
+document object model is a object oriented representation of structured elements like xml and html.
+In DOM the html,head,body and div are correspondingly represented as objects.
+In programming the dom method is structured in tree shape so that easily we can search and manipulate that particular elements or attributes.
+This tree method makes to search elements and attributes in a way easy and fast manner.
+One can easily change title,division,paragraph by using js objects.
+one can change the elements node and attributes node in DOM by using js objects.
+one can remove or hide the text and animate the text by using DOM method.
